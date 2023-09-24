@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    position: fixed;
+    color: bisque;
+    width: 100%;
+}
+
+.container .nav {
+    align-items: center;
+    height: 40px;
+    background-color: #212121;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container .nav .title {
+    padding-left: 5rem;
+}
+
+.container .nav .link {
+    padding-right: 5rem;
+}
+
+.container .nav .link a {
+    margin-inline: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.container .content {
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: 1rem auto;
+    padding: 3rem;
+}
+
+.container .content .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-block: 1rem;
+}
+
+.container .content .course {
+    margin: 3rem auto;
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    row-gap: 3rem;
+}
+
+.container .content .course .card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    /* border: 1px solid green; */
+}
+
+.container .content .course .thumbnail img {
+    width: 100%;
+    border: 1px solid #a7a7a7;
+}
+
+.container .content .course .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 0.5rem;
+}
+
+.container .content .course .author {
+    font-size: 12px;
+    font-weight: 100;
+    color: #666666;
+}
+
+.container .content .course .description {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 100;
+    color: #666666;
+}
