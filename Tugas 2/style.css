@@ -1,0 +1,82 @@
+.judul{
+    position: fixed;
+    top: 0; /*Wajib*/
+    left: 0; /*Wajib*/
+    right: 0; /*Wajib*/
+    display: flex; /*Wajib*/
+    background-color: #212121;
+    color: bisque;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 21px;
+    justify-content: center;
+    height: 40px;
+    align-items: center; /* Buat semua di center*/
+    letter-spacing: 4px;
+}
+body{
+    margin: 0;
+    background-color: #212121;
+    /* height: 100vh;  */
+    /* Mengisi tinggi seluruh layar */
+}
+.fotosaya{
+    /* padding: 100px; */
+    /* margin: 100px; */
+    display: flex; 
+    /*Wajib*/
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: lightcoral; */
+
+}
+.fotosaya img{
+    /* justify-content: center; */
+    width: 200px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+    /* border-radius: 50%; */
+    /* border-bottom: 50%; */
+    overflow: hidden; /* Ini akan memastikan gambar yang di luar lingkaran tersembunyi */
+}
+.container{
+    background-color: antiquewhite;
+    /* padding-top: 50px; */
+    /* padding: 100px;  */
+    /*Ruang bingkai konten dalam*/
+    /* margin: 100px; */
+    /* display: flex; */ /* BUAT DIPISAH KANAN KIRI*/
+    font-family: 'Poppins', sans-serif;
+}
+.container .fotosaya{
+    padding-top: 100px; 
+}
+.container .perkenalan{
+    justify-content: center;
+    text-align: center;
+    display: flex; 
+    padding-top: 20px;
+    padding-left: 100px; 
+    padding-right: 100px; 
+}
+.container .datasaya{
+    padding-left: 100px; 
+    padding-right: 100px; 
+}
+.container .pendidikan{
+    padding-left: 100px; 
+    padding-right: 100px; 
+}
+.container .keterampilan{
+    padding-left: 100px; 
+    padding-right: 100px; 
+}
+.container .toolset{
+    padding-left: 100px; 
+    padding-right: 100px; 
+    padding-bottom: 50px;
+}
+footer{
+    background-color: #212121;
+    color: bisque;
+    padding: 50px; 
+    font-family: 'Poppins', sans-serif;
+    /* display: flex; Wajib buat ngubah jadi 2 */
+}
