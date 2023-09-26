@@ -1,0 +1,127 @@
+.judul{
+    position: fixed;
+    top: 0; /*Wajib*/
+    left: 0; /*Wajib*/
+    right: 0; /*Wajib*/
+    display: flex; /*Wajib*/
+    background-color: #E9E9E9;
+    color: #D3CEC0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    justify-content: center;
+    height: 80px;
+    align-items: center; /* Buat semua di center*/
+    letter-spacing: 5px;
+}
+body{
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden;
+
+}
+.container{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    /* position: fixed; */
+    width: 100%;
+}
+.container .perkenalan{
+    justify-content: center;
+    text-align: center;
+    display: flex; 
+    padding-top: 100px;
+    padding-left: 100px; 
+    padding-right: 100px; 
+}
+.container .content .title {
+    font-size: 24px;
+    /* margin-bottom: -50px; */
+    /* margin-block: 1rem; */
+    display: flex; /*Wajib*/
+    justify-content: center;
+    /* font-family: 'Bebas Neue', sans-serif; */
+    font-size:30px;
+    /* letter-spacing: 2px; */
+}
+.container .banner {
+    width: 100%;
+    /* position: relative; */
+    height: 300px;
+    background: url('./asset/Banner.png');
+    background-size: cover;
+    /* background-position: center px; */
+    /* overflow: hidden; */
+}
+
+.container .banner .banner-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    padding: 5rem;    
+}
+.container .banner .banner-inner a{
+    font-family: 'Poppins', sans-serif;
+}
+.container .content .video{
+    display: flex; /*Wajib*/
+    justify-content: center;
+    margin-top: -30px;
+}
+/* .container .content .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+
+.container .content .course {
+    /* padding: 10rem auto; */
+    padding-left: 30px auto;
+    margin: 3rem;
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    row-gap: 3rem;
+}
+.container .content .course .card {
+    /* text-align: left; */
+    /* position: relative; */
+    width: 300px;
+    height: auto;
+    /* border: 1px solid green; */
+    margin-bottom: 0px;
+}
+.container .content .course .thumbnail img {
+    width: 100%;
+    /* border: 1px solid #1e1e1e; */
+}
+
+.container .content .course .title {
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.container .content .course .description {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 13px;
+    /* font-weight: 100; */
+    color: #1e1e1e;
+}
+
+footer{
+    background-color: #E9E9E9;
+    color: black;
+    padding: 50px; 
+    font-family: 'Poppins', sans-serif;
+    /* display: flex; Wajib buat ngubah jadi 2 */
+}
