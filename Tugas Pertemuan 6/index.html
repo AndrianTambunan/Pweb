@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="form">
+            <form id="form" method="post">
+                <label for="mahasiswa">Nama Mahasiswa</label>
+                <input id="mahasiswa" type="text" name="mahasiswa" placeholder="Masukkan Nama Lengkap" />
+
+                <label for="nim">NRP Mahasiswa</label>
+                <input id="nim" type="text" name="nim" placeholder="Masukkan NRP" />
+
+                <label for="matkul">Mata Kuliah</label>
+                <select name="matkul">Jurusan
+                    <option value="0">Pilih Mata Kuliah</option>
+                    <option value="1">Agama Islam</option>
+                    <option value="2">Agama Kristen</option>
+                    <option value="3">Agama Katolik</option>
+                    <option value="4">Agama Hindu</option>
+                    <option value="5">Agama Buddha</option>
+                    <option value="6">Agama Konghuchu</option>
+                    <option value="7">Aljabar Linier</option>
+                    <option value="8">Dasar Pemrograman</option>
+                    <option value="9">Grafika Komputer</option>
+                    <option value="10">Jaringan Komputer</option>
+                    <option value="11">Komputasi Numerik</option>
+                    <option value="12">Manajemen Basis Data</option>
+                    <option value="13">Matematika Diskrit</option>
+                    <option value="14">Organisasi Komputer</option>
+                    <option value="15">Pemodelan dan Simulasi</option>
+                    <option value="16">Pemrograman Berbasis Kerangka Kerja</option>
+                    <option value="17">Pemrograman Berorientasi Objek</option>
+                    <option value="18">Pemrograman Web</option>
+                    <option value="19">Probabilitas dan Statistik</option>
+                    <option value="20">Rekayasa Sistem Berbasis Pengetahuan</option>
+                    <option value="21">Sistem Basis Data</option>
+                    <option value="22">Sistem Digital</option>
+                    <option value="23">Sistem Operasi</option>
+                    <option value="24">Struktur Data</option>
+                    <option value="25">Teori Graf</option>
+                    <option value="26">Tugas Akhir</option>
+                </select>
+
+                <label for="dosen">Nama Dosen</label>
+                <input id="dosen" type="text" name="dosen" placeholder="Contoh:Fajar Baskoro" />
+
+                <input id="submit" type="submit" value="Submit" />
+            </form>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
